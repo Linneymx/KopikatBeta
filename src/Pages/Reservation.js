@@ -4,13 +4,10 @@ import "../Styles/Reservation.css";
 
 function Reservation() {
   return (
-    <div className="contact">
-      <div
-        className="leftSide"
-        style={{ backgroundImage: `url(${ImgLeft})` }}
-      ></div>
-      <div className="rightSide">
-        <h1>    Reservation</h1>
+    <div className="Reservation">
+
+      <div className="leftSide">
+        <h1> Reservation</h1>
 
         <form id="contact-form" method="POST">
           <label htmlFor="name">Name</label>
@@ -32,6 +29,11 @@ function Reservation() {
           <button > Booking</button>
         </form>
       </div>
+      
+      <div className="rightSide"
+        style={{ backgroundImage: `url(${ImgLeft})` }}
+      > </div>
+
     </div>
   );
 }

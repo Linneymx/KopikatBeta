@@ -16,6 +16,7 @@
   
   .navbar .leftSide img {
     width: 50%;
+    background-position: center;
   }
   
   .navbar .rightSide {
@@ -102,6 +103,10 @@
     .navbar .rightSide button {
       display: inherit;
        
+    }
+
+    .navbar img {
+      display: inherit;
     }
   }
   
