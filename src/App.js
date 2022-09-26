@@ -6,6 +6,7 @@ import Menu from "./Pages/Menu";
 import Menu2 from "./Pages/Menu2";
 import AboutUs from "./Pages/AboutUs";
 import Reservation from "./Pages/Reservation";
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
