@@ -30,11 +30,16 @@
   .navbar a {
     color: #f3e7db;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     margin: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
+  .rightSide  :hover {
+    color: #b5bf6a;
+  
+  }
+
   .navbar .rightSide button {
     background-color: transparent;
     border: none;
@@ -84,8 +89,10 @@
       width: 70px;
     }
     .navbar .leftSide {
-      padding-left: 50px;
+      padding-left: 30px;
     }
+
+  
   }
   
   @media only screen and (max-width: 600px) {

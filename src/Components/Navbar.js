@@ -24,14 +24,17 @@ function Navbar() {
           <Link to="/Reservation"> Reservation</Link>
         </div>
       </div>
+
       <div className="rightSide">
         <Link to="/"> Home </Link>
         <Link to="/menu"> Menu </Link>
         <Link to="/aboutUs"> About Us </Link>
         <Link to="/Reservation"> Reservation </Link>
+        
         <button onClick={toggleNavbar}>
            <ReorderIcon />
         </button>
+
       </div>
     </div>
   );

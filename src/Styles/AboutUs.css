@@ -3,6 +3,7 @@
     height: 90vh;
     display: flex;
     flex-direction: column;
+    padding-bottom: 10%;
   }
   
   .aboutTop {
@@ -13,7 +14,10 @@
     background-size: cover;
 
   }
-  
+  .spaceButton{
+  padding: 5%;
+
+}
   .aboutBottom {
     display: flex;
     flex-direction: column;
@@ -25,7 +29,9 @@
   .aboutBottom p {
     width: 1200px;
   }
-  
+  .about {
+    padding-bottom: 15%;
+  }
   .about .aboutBottom h1 {
     font-weight: 400;
     font-size: 70px;
@@ -38,6 +44,7 @@
   }
 
   .about button {
+    padding-bottom: auto;
     color: black;
     border: none;
     border-radius: 5px;
@@ -62,6 +69,9 @@
       justify-content: center;
       align-items: center;
     }
+    .about {
+      padding-bottom: 20%;
+    }
     .about .aboutBottom h1 {
       width: 80%;
       font-size: 40px;
@@ -70,15 +80,21 @@
       width: 80%;
       display: flex;
       justify-content: center;
+      padding-bottom: 0%;
     }
     .headerContainer button {
       background-color: white;
       color:  #2c1f17;
       margin-bottom: 30px;
     }
-  
+    .aboutBottom img {
+      justify-content: center;
+      width: 50%;
+    
+    }
     .headerContainer button:hover {
       background-color: #f3e7db;
+      padding-bottom: 20%;
       color:  #2c1f17;
     }
   }

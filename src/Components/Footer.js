@@ -9,7 +9,7 @@ function Footer() {
     <div className="footer">
       <div className="socialMedia">
         <InstagramIcon /> <FacebookIcon />       </div>
-      <p>KopiKat &copy; 2022 Derechos Reservados</p>
+      <p>KopiKatbeta &copy; 2022 Derechos Reservados Linneymx</p>
     </div>
   );
 }
